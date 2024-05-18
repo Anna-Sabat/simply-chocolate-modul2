@@ -1,10 +1,422 @@
 body {
 font-family: "Montserrat", sans-serif;
 }
-ul li {
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+h1 h2 h3 h4 h5 h6 {
 
 }
 
-h1 h2 h3 h4 h5 h6 {
-    
+.header {
+}
+
+.header-nav {}
+
+.logo {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.11;
+    letter-spacing: -0.03em;
+    color: #111;
+}
+
+.logo-accent {
+    font-style: italic;
+}
+
+.logo-img{
+    width: 24px; 
+    height: 24px;
+}
+
+.header-menu-list {
+}
+
+.header-menu-item {}
+
+.header-menu-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: -0.02em;
+    color: #111;
+}
+
+.header-menu-link:hover,
+.header-menu-link:active,
+.header-menu-link:focus {
+    color: #fd9222;
+}
+
+.ikon-list {}
+
+.ikon-list-item {}
+
+.header-socil-link {}
+
+
+/*----section1----*/
+
+.hero {
+    border-radius: 30px;
+    background: rgba(17, 17, 17, 0.6);
+}
+
+.hero-title {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1.2;
+    letter-spacing: -0.03em;
+    color: #fff;
+}
+
+.button-link {
+    font-weight: 600;
+    font-size: 14px;
+    color: #fff;
+}
+
+.hero-made-link {
+    font-weight: 600;
+    font-size: 14px;
+    color: #fff;
+}
+
+.hero-scroll-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: -0.03em;
+    color: #fff;
+}
+
+/*----section2----*/
+
+.benefits {
+    background: #1e1823;
+}
+
+.benefits-list {}
+
+.benefits-list-item {}
+
+.benefits-title {
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+}
+
+.benefits-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/*----section3----*/
+
+.taste {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.16;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #111;
+}
+
+.taste-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #111;
+}
+
+.taste-list {}
+
+.taste-list-item {}
+
+.taste-images {}
+
+.color-orange {
+    background: #fd9222;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.color-white {
+    background: #fff;
+    border: 1px solid #fd9222;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    color: #111;
+}
+
+.color-black {
+    background: #1e1823;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    color: #fff;
+}
+
+
+.taste-images-title {}
+
+/*----section4----*/
+
+.made {}
+
+.made-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.17;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #111;
+}
+
+.made-accent {
+    color: #fd9222;
+}
+
+.title {
+}
+
+.made-img {}
+
+.made-subtitle {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.33;
+    color: #111;
+}
+
+.made-list {}
+
+.made-list-item {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.02em;
+    color: #111;
+}
+
+/*----section5----*/
+
+.products {}
+
+.products-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.17;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #111;
+}
+
+.products-accent {
+    color: #fd9222;
+}
+
+.products-list {}
+
+.products-list-item {}
+
+.products-list-img {}
+
+.products-name {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #111;
+}
+
+.products-text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    color: rgba(17, 17, 17, 0.7);
+}
+
+.button-products {
+    font-weight: 600;
+    font-size: 14px;
+    color: #111;
+}
+
+/*----section6----*/
+
+.sellers {}
+
+.sellers-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.17;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #111;
+
+}
+
+.sellers-accent {
+    color: #fd9222;
+}
+
+.sellers-list {}
+
+.sellers-list-item {}
+
+.sellers-img {}
+
+.sellers-text {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #111;
+}
+
+/*----section7----*/
+
+.reviews {}
+
+.reviews-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.17;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fd9222;
+}
+
+.review-accent {
+    color: #111;
+}
+
+.reviews-list {}
+
+.reviews-list-item {}
+
+.avatar {}
+
+.avatar-name {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.33;
+    color: #111;
+}
+
+.reviews-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.02em;
+    color: rgba(17, 17, 17, 0.7);
+}
+
+.button-reviews {
+    font-weight: 600;
+    font-size: 18px;
+    color: #111;
+    border: 1px solid #fd9222;
+    border-radius: 100px;
+}
+
+/*----footer----*/
+
+.footer {
+    background: #1e1823;
+}
+
+.footer-title {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1.21;
+    letter-spacing: -0.02em;
+    color: #fff;
+}
+
+.footer-accent {
+    color: #fd9222;
+}
+
+.footer-social {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.28;
+    color: #fff;
+}
+
+.footer-list {}
+
+.footer-list-item {}
+
+.footer-icon {}
+
+.contact {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.28;
+    color: #fff;
+    font-style: normal;
+}
+
+.address {}
+
+.address-list {}
+
+.address-list-item {
+
+}
+
+.address-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.02em;
+    color: #fff;
+    font-style: normal;
+}
+
+.address-nav {}
+
+.address-nav-list {}
+
+.address-nav-list-item {
+
+}
+
+.address-nav-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14286;
+    letter-spacing: -0.02em;
+    color: #fff;
 }
